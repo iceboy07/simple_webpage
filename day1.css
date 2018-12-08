@@ -1,0 +1,321 @@
+body, html, .container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.portifo {
+	background-image: url("http://nestled.co/wp-content/uploads/2018/07/cool-purple-wallpaper-cool-purple-flowers-wallpaper-purple-wallpaper-iphone.jpg");
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0;
+	color: white;
+	font-family: sans-serif;
+}
+.logo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.ser-list a:hover{
+	border-bottom: 2px solid white ;
+	font-size: 45px;
+}
+.comp-name
+{
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.ser-list a{
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.service-para{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	padding: 40px;
+}
+
+.abt{
+	font-size: 35px;
+	margin: 0;
+}
+
+.teach{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 30px auto;
+	width: 50%;
+	align-items: center;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.business{
+	color: #86025F;
+	font-size: 40px;
+}
+
+.german{
+	color: #E08DB8;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+}
+.button a{
+	padding: 8px;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.gre{
+	border: 1px solid #8D96E0;
+	background-color: #8D96E0;
+	
+}
+
+.fre{
+	border: 1px solid #8A0452;
+	background-color: #8A0452;
+	
+}
+
+.description{
+	width: 100%;
+	height: 70%;
+	background-color: #E1E0F7;
+	display: flex;
+	font-family: sans-serif;
+}
+
+.des{
+	display: flex;
+  margin: 100px auto;
+  justify-content: space-around;
+}
+
+.des i{
+	color: #A76DAD;
+	font-size: 25px;
+}
+
+.des a{
+	text-decoration: none;
+	color: #45194A;
+	font-size: 20px;
+}
+
+.des p{
+	color: #7F7580;
+	font-size: 15px;
+}
+
+.des p:hover{
+	border-bottom: 2px solid #A76DAD;
+	padding: 10px;
+}
+
+.des div{
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.work{
+	width: 100%;
+	margin: 0;
+}
+
+.location{
+	margin: 0 5% ;
+	width:80%;
+	height: 100%;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.location img{
+	width: 250px;
+	height: 250px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.buton{
+	margin: 25px;
+}
+.buton a{
+	margin: 15px;
+	text-decoration: none;
+	color: #750880;
+	padding: 5px;
+	border: 1px solid  #E1E0F7;
+	background-color: #E1E0F7;
+	border-radius: 10px; 
+}
+
+.buton a:hover{
+	background-color: #A9CCE3;
+}
+
+.img-container, .img-container1{
+	width: 100%;
+	display: flex;
+}
+
+.topic{
+	font-size: 40px;
+	color: #290D2C;
+}
+
+.location a{
+	text-decoration: none;
+	color: #750880;
+}
+
+.location a:hover{
+	color: #A569BD;
+}
+
+.location p{
+	text-align: center;
+	color: #7F7580;
+}
+
+.end{
+	margin:40px;
+}
+
+.end a{
+	font-weight: bold;
+	color: white;
+	background-color: #8D96E0;
+	border: 1px solid #8D96E0;
+	border-radius: 5px;
+	padding:10px;
+}
+ 
+.icon{
+	background-image: url("https://images.fineartamerica.com/images-medium-large/new-york-nyc-in-purple-building-art.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 3% 0;
+}
+ 
+ .icon div{
+ 	margin: 5%;
+ }
+
+.icon span{
+	font-size: 20px;
+}
+
+.icon i{
+	font-size: 50px;
+}
+
+.place{
+	width: 100%;
+	background-color: #F4ECF7;
+	font-family: sans-serif;
+}
+
+.right-place{
+	width: 75%;
+	margin: 0 auto; 
+}
+
+.right{
+	margin: 0;
+	font-size: 40px;
+	text-align: center;
+	padding: 50px;
+	color: #5B2C6F;
+}
+
+.abot{
+	margin: 0;
+	color: #AAB7B8;
+	text-align: center;
+	padding:  5%;
+}
+
+.clients{
+	width: 100%;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.clients p{
+	color: black;
+	font-size: 30px;
+}
+
+.icon-cont{
+	display: flex;
+	margin: 0 auto;
+	width: 550px;
+}
+
+.icon-cont img{
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	color: #AAB7B8;
+}
+
+.subscribe{
+	width: 100%;
+	height: 25%;
+	background-color: #AF7AC5;
+	color: white;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.subscribe p{
+		margin: 20px ;
+		width: 50%;
+		font-size: 25px;
+}
+
+.subscribe a{
+	color: white;
+	text-decoration: none;
+	border: 1px solid #1A5276;
+	background-color: #1A5276;
+	border-radius: 5px;
+	padding: 7px;
+	margin: 64px;
+}
+
+.subscribe input{
+	margin: 3%;
+}
